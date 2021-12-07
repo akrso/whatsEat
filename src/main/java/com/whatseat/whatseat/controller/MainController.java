@@ -11,4 +11,9 @@ public class MainController {
         return "main";
     }
 
+    @GetMapping("/index")
+    public String index() {
+        return "index";
+    }
+
 }
